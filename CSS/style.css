@@ -1,0 +1,149 @@
+
+body{
+    background-color: pink;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling */
+nav{
+    font-family: 'Raleway', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    width: 100%;
+    align-items: center;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 15px;
+    font-size: 1.2rem;
+}
+
+.navItem{
+    font-size: 1rem;
+}
+
+.brand img{
+    width: 45px;
+    height: 45px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.6rem;
+}
+
+.brand span{
+    padding: 0px 10px;
+}
+
+.container{
+    min-height: 80vh;
+    background-image: url('../bg1.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    background-color: pink;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    padding: 34px;
+    border:0.8rem solid pink;
+    border-radius: 15px;
+    border-image:
+    url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 5s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23a60457' /%3E%3Cstop offset='25%25' stop-color='%23f70783' /%3E%3Cstop offset='50%25' stop-color='%23fb5aad' /%3E%3Cstop offset='100%25' stop-color='%23fae5f0' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1;
+}
+
+.bottom{
+    bottom: 0px;
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.icons{
+    margin: 15px;
+    color: rgb(248, 221, 225);
+ 
+}
+.icons i{
+    cursor: pointer;
+   
+}
+
+#myProgressBar{
+    cursor: pointer;
+    -webkit-appearance: none;
+    border-radius: 10px;
+    height: 8px;
+    width: 80vw;
+    background-color: #bc1b6e;
+    margin-top: 30px;
+}
+
+input[type='range']::-webkit-slider-thumb{
+    width: 15px;
+    height: 15px;
+    -webkit-appearance: none;
+    background-color:rgb(248, 221, 225);
+    border-radius: 100%;
+}
+.songItemContainer{
+margin-top: 34px;
+}
+
+.songItem{
+    display: flex;
+    height: 50px;
+    background-color: rgb(245, 222, 226);
+    /* width: 80%; */
+    color: #d12980;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    font-size: large;
+    font-weight: bold;
+     font-family: 'Raleway', sans-serif;
+}
+
+.songItem img{
+    width: 45px;
+    margin: 0 24px;
+    border-radius: 100%;
+}
+
+.timestamp{
+    margin: 0 23px;
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left:10vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.songName{
+    font-size: 1rem;
+}

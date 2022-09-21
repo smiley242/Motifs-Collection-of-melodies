@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motifs-collection of melodies</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- Fevicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Satisfy&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+        
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Motifs"><span>Motifs</span></li>
+            <li class="navItem">Home</li>
+            <li class="navItem">About</li>
+            <li class="navItem">Services</li>
+            <li class="navItem">Contact</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of NCS - no copyright songs</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers/Bad_Liar.jpeg" alt="Bad_Liar">
+                    <span class="songName">Bad Liar</span>
+                    <span class="songlistplay"><span class="timestamp">04:20 <i id="0" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/At_My_Worst.jpg" alt="At_My_Worst">
+                    <span class="songName">At My Worst</span>
+                    <span class="songlistplay"><span class="timestamp">03:11 <i id="1" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/believer.jpg" alt="Believer">
+                    <span class="songName">Believer</span>
+                    <span class="songlistplay"><span class="timestamp">03:24 <i id="2" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/chor_bazari.jpg" alt="chor_bazari">
+                    <span class="songName">Chor Bazari</span>
+                    <span class="songlistplay"><span class="timestamp">04:23 <i id="3" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/Dandelions.png" alt="Dandelions">
+                    <span class="songName">Dandelions</span>
+                    <span class="songlistplay"><span class="timestamp">03:19 <i id="4" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/Kinna_Sona.png" alt="Kinna_Sona">
+                    <span class="songName">Kinna Sona</span>
+                    <span class="songlistplay"><span class="timestamp">05:03 <i id="5" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/Mann_Bharya.jpg" alt="Mann_Bharya">
+                    <span class="songName">Man Bharya</span>
+                    <span class="songlistplay"><span class="timestamp">04:36 <i id="6" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/Only_you.jpg" alt="Only_you">
+                    <span class="songName">Only you</span>
+                    <span class="songlistplay"><span class="timestamp">03:05 <i id="7" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/Radioactive.jpg" alt="Radioactive">
+                    <span class="songName">Radioactive</span>
+                    <span class="songlistplay"><span class="timestamp">04:21 <i id="8" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/Sakhiyaan.jpeg" alt="Sakhiyaan">
+                    <span class="songName">Sakhiyaan</span>
+                    <span class="songlistplay"><span class="timestamp">03:19 <i id="9" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/Tokyo_drift.jpeg" alt="Tokyo_drift">
+                    <span class="songName">Tokyo Drift</span>
+                    <span class="songlistplay"><span class="timestamp">04:17 <i id="10" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="50" value="0">
+        <div class="icons">
+             <!-- fontawesome icons -->
+             <i class="fa-3x fa-solid fa-backward-step" id="previous"></i>
+             <i class="fa-3x fa-regular fa-circle-play" id="masterPlay"></i>
+             <i class="fa-3x fa-solid fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" id="gif" width="42px" alt=""> <span id="masterSongName">Bad-Liar</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/ad2b56c99d.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
